@@ -1,0 +1,141 @@
+body > main > section.splash.tech > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+body > main > section.splash.tech > div > div {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+body > main > section.splash.tech > div > div > div {
+    height: 45%;
+    border-radius: 2rem;
+    border: 0.3rem solid #007acc;
+    box-sizing: border-box;
+    padding: 3rem;
+}
+
+body > main > section.splash.tech > div > div > div.career {
+    height: 40%;
+    border: 0;
+}
+
+body > main > section.splash.tech > div > div > div.career > span {
+    display: block;
+    font-size: 1.125rem;
+    line-height: 150%;
+}
+
+body > main > section.splash.tech > div > div > div.career > span.date {
+    font-weight: 800;
+}
+
+body > main > section.splash.tech > div > div > div.projects {
+    height: 50%;
+}
+
+body > main > section.splash.tech > div > div > div.projects > span {
+    display: inline-block;
+    font-size: 1.125rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+}
+
+body > main > section.splash.tech > div > div > div.projects > div {
+    display: flex;
+    flex-direction: row;
+}
+
+body > main > section.splash.tech > div > div > div.projects > div > div.description {
+    flex: 1;
+}
+
+body > main > section.splash.tech > div > div > div.projects > div > div.description > span {
+    display: inline-block;
+    margin-bottom: 0.5rem;
+    line-height: 125%;
+}
+
+body > main > section.splash.tech > div > div > div.projects > div > div.description > span.link {
+    color: #007acc;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 800;
+}
+
+body > main > section.splash.tech > div > div > div.projects > div > div.view {
+    width: 12rem;
+    height: 8rem;
+    background: no-repeat center / cover url("../images/preview.png");
+    border: 0.3rem solid #007acc;
+    border-radius: 1rem;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+body > main > section.splash.tech > div > div > div.projects > div > img.link {
+    width: 1rem;
+    cursor:pointer;
+}
+
+body > main > section.splash.tech > div > div > div.graph {
+    height: 60%;
+    line-height: 200%;
+}
+
+body > main > section.splash.tech > div > div > div.graph > div > div.text {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+body > main > section.splash.tech > div > div > div.graph > div > div.container {
+    width: 100%;
+    height: 1rem;
+    border: 0.1rem solid #007acc;
+    border-radius: 1rem;
+}
+
+body > main > section.splash.tech > div > div > div.graph > div > div.container > div {
+    height: 100%;
+    background-color: #007acc;
+    border-radius: 1rem;
+}
+
+body > main > section.splash.tech > div > div > div.graph > div.back-end > div.container > div {
+    width: 90%;
+}
+
+body > main > section.splash.tech > div > div > div.graph > div.front-end > div.container > div {
+    width: 50%;
+}
+
+body > main > section.splash.tech > div > div > div.graph > div.java > div.container > div {
+    width: 70%;
+}
+
+body > main > section.splash.tech > div > div > div.graph > div.spring > div.container > div {
+    width: 80%;
+}
+
+body > main > section.splash.tech > div > div > div.graph > div.sql > div.container > div {
+    width: 80%;
+}
+
+body > main > section.splash.tech > div > div > div.stacks {
+    height: 30%;
+    line-height: 250%;
+    padding: 2rem;
+}
+
+body > main > section.splash.tech > div > div > div.stacks > span {
+    background-color: #007acc;
+    border-radius: 0.125rem;
+    color: #ffffff;
+    display: inline;
+    padding: 0.25rem 0.5rem;
+}
