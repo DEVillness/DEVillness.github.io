@@ -34,6 +34,10 @@ body > main > section.splash.tech > div > div > div.career > span.date {
     font-weight: 800;
 }
 
+body > main > section.splash.tech > div > div > div.career > span.date:not(:first-child) {
+    margin-top: 0.75rem;
+}
+
 body > main > section.splash.tech > div > div > div.projects {
     height: 50%;
 }
@@ -60,14 +64,17 @@ body > main > section.splash.tech > div > div > div.projects > div > div.descrip
     line-height: 125%;
 }
 
-body > main > section.splash.tech > div > div > div.projects > div > div.description > span.link {
-    color: #007acc;
-    cursor: pointer;
-    font-size: 1rem;
-    font-weight: 800;
+body > main > section.splash.tech > div > div > div.projects > div > div.description > span > a > img {
+    height: 1em;
 }
 
-body > main > section.splash.tech > div > div > div.projects > div > div.view {
+body > main > section.splash.tech > div > div > div.projects > div > div.description > span.title {
+    /* color: #007acc; */
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+body > main > section.splash.tech > div > div > div.projects > div > a > div.view {
     width: 12rem;
     height: 8rem;
     background: no-repeat center / cover url("../images/preview.png");

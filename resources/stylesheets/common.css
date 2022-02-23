@@ -25,3 +25,8 @@ ul {
     margin-inline-end: 0;
     padding-inline-start: 0;
 }
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
