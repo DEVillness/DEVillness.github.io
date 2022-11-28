@@ -2,7 +2,7 @@ body > main > section.splash.profile > div {
     display: flex;
     flex-direction: column;
     font-size: 1.5rem;
-    justify-content: space-between;
+    justify-content: start;
 }
 
 body > main > section.splash.profile > div > span.phrase {
@@ -10,20 +10,25 @@ body > main > section.splash.profile > div > span.phrase {
     font-family: 'Inconsolata', 'Nanum Gothic', sans-serif;
     font-size: 4rem;
     font-weight: 400;
-    padding-left: 5%;
+    padding-left: 3rem;
+    margin-bottom: 3rem;
 }
 
 body > main > section.splash.profile > div > div.divider {
     height: 0.25rem;
     width: 100%;
     background-color: #007acc;
+    margin-bottom: 1.5rem;
 }
 
 body > main > section.splash.profile > div > div.division {
-    height: 30%;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    padding-left: 10%;
+    padding-left: 5rem;
     line-height: 175%;
+}
+
+body > main > section.splash.profile > div > div.division:not(:last-child) {
+    margin-bottom: 1.5rem;
 }

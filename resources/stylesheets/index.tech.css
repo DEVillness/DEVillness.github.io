@@ -11,87 +11,64 @@ body > main > section.splash.tech > div > div {
     justify-content: space-between;
 }
 
+body > main > section.splash.tech > div > div.divider {
+    height: 100%;
+    width: 0.25rem;
+    background-color: #007acc;
+}
+
 body > main > section.splash.tech > div > div > div {
-    height: 45%;
     border-radius: 2rem;
     border: 0.3rem solid #007acc;
     box-sizing: border-box;
-    padding: 3rem;
+    padding: 3rem 2rem;
 }
 
 body > main > section.splash.tech > div > div > div.career {
-    height: 40%;
-    border: 0;
+    border: none;
 }
 
-body > main > section.splash.tech > div > div > div.career > span {
+body > main > section.splash.tech > div > div > div.career > div {
+    margin-bottom: 2rem;
+}
+
+body > main > section.splash.tech > div > div > div.career > div > span {
     display: block;
     font-size: 1.125rem;
     line-height: 150%;
 }
 
-body > main > section.splash.tech > div > div > div.career > span.date {
+body > main > section.splash.tech > div > div > div.career > div > span.date {
     font-weight: 800;
 }
 
-body > main > section.splash.tech > div > div > div.career > span.date:not(:first-child) {
+body > main > section.splash.tech > div > div > div.career > div > span.date:not(:first-child) {
     margin-top: 0.75rem;
 }
 
-body > main > section.splash.tech > div > div > div.projects {
-    height: 50%;
+body > main > section.splash.tech > div > div > div.stacks {
+    height: auto;
+    line-height: 250%;
+    padding: 2rem;
+    margin-left: 2rem;
 }
 
-body > main > section.splash.tech > div > div > div.projects > span {
-    display: inline-block;
-    font-size: 1.125rem;
-    font-weight: 800;
-    margin-bottom: 1rem;
-}
-
-body > main > section.splash.tech > div > div > div.projects > div {
-    display: flex;
-    flex-direction: row;
-}
-
-body > main > section.splash.tech > div > div > div.projects > div > div.description {
-    flex: 1;
-}
-
-body > main > section.splash.tech > div > div > div.projects > div > div.description > span {
-    display: inline-block;
-    margin-bottom: 0.5rem;
-    line-height: 125%;
-}
-
-body > main > section.splash.tech > div > div > div.projects > div > div.description > span > a > img {
-    height: 1em;
-}
-
-body > main > section.splash.tech > div > div > div.projects > div > div.description > span.title {
-    /* color: #007acc; */
-    font-size: 1rem;
-    font-weight: 700;
-}
-
-body > main > section.splash.tech > div > div > div.projects > div > a > div.view {
-    width: 12rem;
-    height: 8rem;
-    background: no-repeat center / cover url("../images/preview.png");
-    border: 0.3rem solid #007acc;
-    border-radius: 1rem;
-    box-sizing: border-box;
-    cursor: pointer;
-}
-
-body > main > section.splash.tech > div > div > div.projects > div > img.link {
-    width: 1rem;
-    cursor:pointer;
+body > main > section.splash.tech > div > div > div.stacks > span {
+    background-color: #007acc;
+    border-radius: 0.125rem;
+    color: #ffffff;
+    display: inline;
+    padding: 0.25rem 0.5rem;
 }
 
 body > main > section.splash.tech > div > div > div.graph {
-    height: 60%;
+    height: 100%;
     line-height: 200%;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0 2rem 2rem 0;
 }
 
 body > main > section.splash.tech > div > div > div.graph > div > div.text {
@@ -113,14 +90,6 @@ body > main > section.splash.tech > div > div > div.graph > div > div.container 
     border-radius: 1rem;
 }
 
-body > main > section.splash.tech > div > div > div.graph > div.back-end > div.container > div {
-    width: 90%;
-}
-
-body > main > section.splash.tech > div > div > div.graph > div.front-end > div.container > div {
-    width: 50%;
-}
-
 body > main > section.splash.tech > div > div > div.graph > div.java > div.container > div {
     width: 70%;
 }
@@ -130,19 +99,25 @@ body > main > section.splash.tech > div > div > div.graph > div.spring > div.con
 }
 
 body > main > section.splash.tech > div > div > div.graph > div.sql > div.container > div {
-    width: 80%;
+    width: 75%;
 }
 
-body > main > section.splash.tech > div > div > div.stacks {
-    height: 30%;
-    line-height: 250%;
-    padding: 2rem;
+body > main > section.splash.tech > div > div > div.graph > div.linux > div.container > div {
+    width: 70%;
 }
 
-body > main > section.splash.tech > div > div > div.stacks > span {
-    background-color: #007acc;
-    border-radius: 0.125rem;
-    color: #ffffff;
-    display: inline;
-    padding: 0.25rem 0.5rem;
+body > main > section.splash.tech > div > div > div.graph > div.react > div.container > div {
+    width: 40%;
+}
+
+body > main > section.splash.tech > div > div > div.graph > div.devops > div.container > div {
+    width: 60%;
+}
+
+body > main > section.splash.tech > div > div > div.graph > div.js > div.container > div {
+    width: 50%;
+}
+
+body > main > section.splash.tech > div > div > div.graph > div.css > div.container > div {
+    width: 60%;
 }

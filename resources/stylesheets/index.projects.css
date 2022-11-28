@@ -1,0 +1,66 @@
+body > main > section.splash.projects > div.container {
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    white-space: nowrap
+}
+
+body > main > section.splash.projects > div.container > div.project {
+    width: 100%;
+    height: 100%;
+    border-radius: 2rem;
+    border: 0.3rem solid #007acc;
+    box-sizing: border-box;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    scroll-snap-align: center;
+    padding: 3rem;
+    margin-right: 5rem;
+}
+
+body > main > section.splash.projects > div.container > div.project > span {
+    display: inline-block;
+    font-size: 3rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+}
+
+body > main > section.splash.projects > div.container > div.project > div.description {
+    flex: 1;
+}
+
+body > main > section.splash.projects > div.container > div.project > div.description > span {
+    display: inline-block;
+    margin-bottom: 0.5rem;
+    line-height: 125%;
+}
+
+body > main > section.splash.projects > div.container > div.project > div.description > span.title {
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 100%;
+    margin-bottom: 3rem;
+}
+
+body > main > section.splash.projects > div.container > div.project > div.description > span > a > img {
+    height: 1em;
+    vertical-align: text-top;
+}
+
+body > main > section.splash.projects > div.container > div.project > a > div.view {
+    border: 0.3rem solid #007acc;
+    border-radius: 1rem;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+body > main > section.splash.projects > div.container > div.project > div > img.link {
+    width: 1rem;
+    cursor:pointer;
+}
+
+body > main > section.splash.projects > div.container > div.project.\000031 > a > div.view {
+    width: 24rem;
+    height: 16rem;
+    background: no-repeat center / cover url("../images/preview.png");
+}
