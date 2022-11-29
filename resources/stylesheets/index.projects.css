@@ -60,7 +60,25 @@ body > main > section.splash.projects > div.container > div.project > div > img.
 }
 
 body > main > section.splash.projects > div.container > div.project.\000031 > a > div.view {
-    width: 24rem;
-    height: 16rem;
-    background: no-repeat center / cover url("../images/preview.png");
+    width: 15.75rem;
+    height: 28rem;
+    background: no-repeat center / cover url("../images/preview1.png");
+}
+
+body > main > section.splash.projects > div.container > div.project.\000032 > a > div.view {
+    width: 13.5rem;
+    height: 28rem;
+    background: no-repeat center / cover url("../images/preview2.gif");
+}
+
+body > main > section.splash.projects > div.container > div.project.\000033 > a > div.view {
+    width: 30rem;
+    height: 20rem;
+    background: no-repeat center / cover url("../images/preview3.png");
+}
+
+body > main > section.splash.projects > div.container > div.project.\000034 > a > div.view {
+    width: 30rem;
+    height: 20rem;
+    background: no-repeat center / cover url("../images/preview4.png");
 }
